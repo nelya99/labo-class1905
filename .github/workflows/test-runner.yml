@@ -7,12 +7,12 @@ on:
 jobs:
  test-runner:
   runs-on:
-  - self-hosted
-  - linux
-  - x64
-  - itadori
-  - megumi
-  - nobara
+   - self-hosted
+   - linux
+   - x64
+   - itadori
+   - megumi
+   - nobara
 
  steps:
   - name: Verification
@@ -24,3 +24,4 @@ jobs:
      hostname
      whoami
      uname -a
+     ip -4 -c a
