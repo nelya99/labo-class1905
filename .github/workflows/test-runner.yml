@@ -15,7 +15,7 @@ jobs:
    - megumi
    - nobara
 
- steps:
+  steps:
    - name: Verification
      run: echo "Test de fonctionnement du Runner !"
 
